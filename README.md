@@ -148,6 +148,6 @@ Click the image to jump to Youtube.
 
 ---
 ## LICENSE
-- ROS - [BSD](https://github.com/MasatoKubotera/translate/blob/master/LICENSE)
+- ROS - [BSD 3-Clause License](https://github.com/MasatoKubotera/translate/blob/master/LICENSE)
 
-- googletrans - [MIT](https://pypi.org/project/googletrans/4.0.0rc1/)
+- googletrans - [MIT License](https://pypi.org/project/googletrans/4.0.0rc1/)

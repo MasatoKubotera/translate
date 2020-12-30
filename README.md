@@ -1,4 +1,4 @@
-# 
+# RobotSys 2020 Task2-ROS
 
 ---
 ## Overview
@@ -10,7 +10,7 @@ Using googletrans, I created a ROS package that translates from Japanese to vari
 ---
 ## Movie
 
-[![デモ動画](https://img.youtube.com/vi//maxresdefault.jpg)]()
+[![デモ動画](https://img.youtube.com/vi/sby_NafBP6A/maxresdefault.jpg)](https://youtu.be/sby_NafBP6A)
 
 Click the image to jump to Youtube.
 
@@ -45,7 +45,7 @@ Click the image to jump to Youtube.
 
     (下記の資料を参考にワークスペースを作成しました。)
 
-    [robosys2020](https://github.com/ryuichiueda/robosys2020/blob/master/md/ros.md)
+    [robosys2020 ros.md](https://github.com/ryuichiueda/robosys2020/blob/master/md/ros.md)
 
 -   ### Package
 
@@ -100,12 +100,11 @@ Click the image to jump to Youtube.
 
     (パブリッシャ・サブスクライバをそれぞれ別のウィンド(端末)でコマンドを実行してください。)
 
-
     -   Publisher
 
-        |Node Name|Code|Run Command|Explanation|
+        |Node Name|Code|Run Command|Description(説明)|
         |---|---|---|---|
-        |master_ja|[ja.py](https://github.com/MasatoKubotera/translate/blob/master/scripts/ja.py)|`$ rosrun translate ja.py`|日本語の文字列をサブスクライバに送信|
+        |master_ja|[ja.py](https://github.com/MasatoKubotera/translate/blob/master/scripts/ja.py)|`$ rosrun translate ja.py`|Send Japanese string to subscriber.(日本語の文字列をサブスクライバに送信)|
 
     -   Subscriber
 
@@ -121,7 +120,7 @@ Click the image to jump to Youtube.
         |translate_fr|[fr.py](https://github.com/MasatoKubotera/translate/blob/master/scripts/fr.py)|`$ rosrun translate fr.py`|Translate to french(フランス語に翻訳)|
         |translate_zh|[zh.py](https://github.com/MasatoKubotera/translate/blob/master/scripts/zh.py)|`$ rosrun translate zh.py`|Translate to chinese(中国語(簡体字)に翻訳)|
         |translate_ko|[ko.py](https://github.com/MasatoKubotera/translate/blob/master/scripts/ko.py)|`$ rosrun translate ko.py`|Translate to chinese(韓国語に翻訳)|
-        |translate_random|[random_lang.py](https://github.com/MasatoKubotera/translate/blob/master/scripts/random_lang.py)|`$ rosrun translate random.py`|Translate to random language(ランダムな言語に翻訳)|
+        |translate_random|[random_lang.py](https://github.com/MasatoKubotera/translate/blob/master/scripts/random_lang.py)|`$ rosrun translate random_lang.py`|Translate to random language(ランダムな言語に翻訳)|
 
 -   ### Method - 2
     You can launch roscore, publisher, and all subscribers by running the bash file.

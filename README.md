@@ -57,6 +57,16 @@ Click the image to jump to Youtube.
     $ cd ~/catkin_ws/src
     $ git clone https://github.com/MasatoKubotera/translate
     ```
+    
+    Build this package using catkin_make.
+    
+    (catkin_makeを使用して本パッケージをビルドします。)
+    
+    ```
+    $ cd ~/catkin_ws
+    $ catkin_make
+    $ source ~/.bashrc
+    ```
 
 -   ### Googletrans
     -   Install
